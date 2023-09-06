@@ -2,3 +2,13 @@
   text-decoration: none;
   list-style-type: none;
 }
+.initial:first-letter {
+  font-size: 3em;
+  float: left;
+  line-height: 88%;
+  text-shadow: -0.1em -0.1em 0.1em grey;
+  margin-right: 0.1em;
+}
+/* .initial:first-line {
+  line-height: 1em;
+} */

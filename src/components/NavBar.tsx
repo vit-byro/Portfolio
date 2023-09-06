@@ -23,7 +23,6 @@ export default function NavBar() {
       previousScrollPosition = currentScrollPosition;
     });
   }, []);
-  console.log(window.scrollY);
   return (
     <div
       className={`h-[10vh] uppercase bg-inherit sticky ${show ? "top-0" : ""}`}
@@ -33,7 +32,7 @@ export default function NavBar() {
           <li className="flex-auto">
             <div className="text-4xl my-5">
               <span className=" overline decoration-white ">Vit</span>
-              <span className="bg-white text-black">Byro</span>
+              <span className="bg-white text-black pr-1">Byrå</span>
             </div>
           </li>
         </Link>
