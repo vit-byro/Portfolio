@@ -25,6 +25,7 @@ export default function NavBar() {
   }, []);
   return (
     <div
+      id="navbar"
       className={`h-[10vh] uppercase bg-inherit sticky ${show ? "top-0" : ""}`}
     >
       <ul className="flex justify-between mx-5 text-white items-center">
