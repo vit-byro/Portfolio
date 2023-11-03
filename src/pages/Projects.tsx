@@ -6,7 +6,7 @@ export default function Projects() {
     {
       text: `Portfolio
 
-      This website runs on Nginx on my Ubuntu server in my home. No other way for full control in my opinion. I created it in React with Typescript, formatting is mainly executed with Tailwind, but one can't avoid CSS. Check out the Git repository if you are interested, I made it public!`,
+      I created it in React with Typescript, formatting is mainly executed with Tailwind, but one can't avoid CSS. Check out the Git repository if you are interested, I made it public!`,
       img: "projects.jpg",
     },
     {
